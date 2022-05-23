@@ -1,0 +1,29 @@
+{
+  "name": "discord-auto-publisher",
+  "version": "1.6.1",
+  "description": "Automatically publish messages or news in your announcement channels!",
+  "author": "Forcellrus",
+  "license": "MIT",
+  "homepage": "https://github.com/Forcellrus/Discord-Auto-Publisher#readme",
+  "repository": "github:Forcellrus/Discord-Auto-Publisher",
+  "main": "bot.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bufferutil": "^4.0.3",
+    "chalk": "^4.1.0",
+    "discord.js-light": "^3.5.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "p-queue": "^6.6.2",
+    "url-regex-safe": "^2.0.2",
+    "utf-8-validate": "^5.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
